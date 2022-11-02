@@ -24,6 +24,11 @@ Predictions are made on the K clusters of the cryptocurrencies’ data and a new
 
 ### Deliverable 4: Visualizing Cryptocurrencies Results
 
+The clusters are plotted using a 3D scatter plot, and each data point shows the CoinName and Algorithm on hover 
 ![3-D scatter plot](https://github.com/JBtallgrass/-Cryptocurrencies/blob/main/Images/3D_ScatterPlot.png)
 
+In additon to the scatterplot a table with tradable cryptocurrencies is created using the hvplot.table() function with the total number of tradable cryptocurrencies  printed. There is a DataFrame that contains the clustered_df DataFrame index, the scaled data, and the CoinName and Class columns. and finally a hvplot scatter plot is
 ![Bokeh plot](https://github.com/JBtallgrass/-Cryptocurrencies/blob/main/Images/bokeh_plot.png)
+created where the X-axis is "TotalCoinsMined", the Y-axis is "TotalCoinSupply", the data is ordered by "Class", and it shows the CoinName when you hover over the data point (10 pt)
+
+
