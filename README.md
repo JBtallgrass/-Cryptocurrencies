@@ -10,6 +10,12 @@ This project consists of four technical analysis deliverables.
 
 ### Deliverable 1: Preprocessing the Data for PCA
 
+All cryptocurrencies that are not being traded were removed in additon to the IsTrading column being dropped. All null values, all columns without coins being mined 
+
+A new DataFrame is created that stores all cryptocurrency names from the CoinName column and retains the index from the crypto_df DataFrame (5 pt)
+The get_dummies() method is used to create variables for the text features, which are then stored in a new DataFrame, X (5 pt)
+The features from the X DataFrame have been standardized using the StandardScaler fit_transform() function (5 pt)
+
 ### Deliverable 2: Reducing Data Dimensions Using PCA
 
 ### Deliverable 3: Clustering Cryptocurrencies Using K-means
