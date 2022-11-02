@@ -16,4 +16,4 @@ This project consists of four technical analysis deliverables.
 
 ### Deliverable 4: Visualizing Cryptocurrencies Results
 
-![] (
+![3-D scatter plot] (https://github.com/JBtallgrass/-Cryptocurrencies/blob/main/Images/3D_ScatterPlot.png)
